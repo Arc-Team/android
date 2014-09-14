@@ -6,22 +6,20 @@
            review="android-review.googlesource.com" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com"
            review="review.cyanogenmod.org" />
-
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-f="true"
+           sync-j="8" />
 
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="Arc-Team/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
