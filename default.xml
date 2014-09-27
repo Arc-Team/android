@@ -435,7 +435,6 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
@@ -501,8 +500,10 @@
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" revision="pac-4.4" />
   <project path="packages/apps/Exchange" name="PAC-man/android_packages_apps_Exchange" revision="pac-4.4" />
   <project path="packages/apps/GooglePacman" name="PAC-man/android_packages_apps_GooglePacman" revision="pac-4.4" />
+  <project path="packages/apps/HALO" name="PAC-man/android_packages_apps_HALO" revision="pac-4.4" />
   <project path="packages/apps/InCallUI" name="PAC-man/android_packages_apps_InCallUI" revision="pac-4.4" />
   <project path="packages/apps/InsertCoins" name="PAC-man/android_packages_apps_InsertCoins" revision="pac-4.4" />
+  <project path="packages/apps/Nfc" name="PAC-man/android_packages_apps_Nfc" revision="pac-4.4" />
   <project path="packages/apps/OmniSwitch" name="PAC-man/android_packages_apps_OmniSwitch" revision="pac-4.4" />
   <project path="packages/apps/PacConsole" name="PAC-man/pac_game_console" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="PAC-man/android_packages_apps_PackageInstaller" revision="pac-4.4" />
