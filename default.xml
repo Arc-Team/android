@@ -64,7 +64,6 @@
   <project path="external/lzma" name="platform/external/lzma" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/mockito" name="platform/external/mockito" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -284,6 +283,7 @@
   <project path="external/markdown" name="CyanogenMod/android_external_markdown" />
   <project path="external/mdnsresponder" name="CyanogenMod/android_external_mdnsresponder" groups="pdk" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" />
+  <project path="external/mockito" name="CyanogenMod/android_external_mockito" />
   <project path="external/mockwebserver" name="CyanogenMod/android_external_mockwebserver" />
   <project path="external/mp4parser" name="CyanogenMod/android_external_mp4parser" />
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" />
