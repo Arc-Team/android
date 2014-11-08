@@ -505,7 +505,7 @@
   <project path="packages/apps/InsertCoins" name="PAC-man/android_packages_apps_InsertCoins" revision="pac-4.4" />
   <project path="packages/apps/Nfc" name="PAC-man/android_packages_apps_Nfc" revision="pac-4.4" />
   <project path="packages/apps/OmniSwitch" name="PAC-man/android_packages_apps_OmniSwitch" revision="pac-4.4" />
-  <project path="packages/apps/PacConsole" name="PAC-man/pac_game_console" revision="pac-4.4" />
+  <project path="packages/apps/PacConsole" name="PAC-man/android_packages_apps_PacConsole" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="PAC-man/android_packages_apps_PackageInstaller" revision="pac-4.4" />
   <project path="packages/apps/PacPapers" name="PAC-man/android_packages_apps_PacPapers" revision="pac-4.4" />
   <project path="packages/apps/PACPerformance" name="PAC-man/android_packages_apps_PACPerformance" revision="pac-4.4" />
