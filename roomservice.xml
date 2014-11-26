@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Devices -->
+  <project name="Arc-Team/android_device_htc_ruby" path="device/htc/ruby" remote="github" revision="cm-12.0" />
+  <project name="Arc-Team/android_device_htc_evita" path="device/htc/evita" remote="github" revision="cm-12.0" />
+  <project name="Arc-Team/android_device_htc_glacier" path="device/htc/glacier" remote="github" revision="cm-12.0" />
+  <project name="Arc-Team/android_device_htc_holiday" path="device/htc/holiday" remote="github" revision="cm-12.0" />
+  <project name="Arc-Team/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" revision="cm-12.0" />
+
+  <!-- Kernels -->
+  <project name="Arc-Team/android_kernel_htc_ruby" path="kernel/htc/ruby" remote="github" revision="cm-12.0" />
+  <project name="Arc-Team/android_kernel_htc_evita" path="kernel/htc/evita" remote="github" revision="cm-12.0" />
+  <project name="Arc-Team/android_kernel_htc_glacier" path="kernel/htc/glacier" remote="github" revision="cm-12.0" />
+  <project name="Arc-Team/android_kernel_htc_holiday" path="kernel/htc/holiday" remote="github" revision="cm-12.0" />
+  <project name="Arc-Team/android_kernel_samsung_jflte" path="kernel/samsung/jflte" remote="github" revision="cm-12.0" />
+
+  <!-- Tools -->
+  <project name="Arc-Team/android_prebuilt_linaro" path="prebuilt/linux-x86/toolchain" remote="github" revision="cm-12.0" />
+
+</manifest>
