@@ -19,7 +19,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="Arc-Team/android" />
+  <project path="android" name="Arc-Team/android"  >
+    <copyfile src="build-cm.sh" dest="build-cm.sh" />
+  </project>
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />

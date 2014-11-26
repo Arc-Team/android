@@ -24,8 +24,8 @@ Then to sync up:
 
 Then to build:
 
-    . build/envsetup.sh && time brunch <device_code_name>
+    ./build-cm.sh <device_code_name>
 
 Example for HTC One XL:
 
-    . build/envsetup.sh && time brunch evita
+    ./build-cm.sh evita
