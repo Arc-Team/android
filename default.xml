@@ -551,7 +551,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" revision="pac-5.0" />
-  <!-- <project path="packages/apps/PacConsole" name="PAC-man/android_packages_apps_PacConsole" revision="pac-5.0" /> -->
+  <project path="packages/apps/PACPerformance" name="PAC-man/android_packages_apps_PACPerformance" revision="pac-5.0" />
   <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" revision="pac-5.0" />
 
 </manifest>
