@@ -437,7 +437,7 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
@@ -510,9 +510,9 @@
   <project path="packages/apps/InsertCoins" name="PAC-man/android_packages_apps_InsertCoins" revision="pac-4.4" />
   <project path="packages/apps/Nfc" name="PAC-man/android_packages_apps_Nfc" revision="pac-4.4" />
   <project path="packages/apps/OmniSwitch" name="PAC-man/android_packages_apps_OmniSwitch" revision="pac-4.4" />
-  <project path="packages/apps/PacConsole" name="PAC-man/android_packages_apps_PacConsole" revision="pac-4.4" />
+  <project path="packages/apps/PACConsole" name="PAC-man/android_packages_apps_PACConsole" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="PAC-man/android_packages_apps_PackageInstaller" revision="pac-4.4" />
-  <project path="packages/apps/PacPapers" name="PAC-man/android_packages_apps_PacPapers" revision="pac-4.4" />
+  <project path="packages/apps/PACPapers" name="PAC-man/android_packages_apps_PACPapers" revision="pac-4.4" />
   <project path="packages/apps/PACPerformance" name="PAC-man/android_packages_apps_PACPerformance" revision="pac-4.4" />
   <project path="packages/apps/ScreenRecorder" name="PAC-man/android_packages_apps_ScreenRecorder" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" revision="pac-4.4" />
