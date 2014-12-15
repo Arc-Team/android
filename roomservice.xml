@@ -13,7 +13,7 @@
   <project name="Arc-Team/android_kernel_htc_evita" path="kernel/htc/evita" remote="github" revision="cm-12.0" />
   <project name="Arc-Team/android_kernel_htc_glacier" path="kernel/htc/glacier" remote="github" revision="cm-12.0" />
   <project name="Arc-Team/android_kernel_htc_holiday" path="kernel/htc/holiday" remote="github" revision="cm-12.0" />
-  <project name="Arc-Team/android_kernel_samsung_jflte" path="kernel/samsung/jflte" remote="github" revision="cm-12.0" />
+  <project name="Arc-Team/android_kernel_samsung_jflte" path="kernel/samsung/jfltetmo" remote="github" revision="cm-12.0-tmo" />
 
   <!-- Tools -->
   <project name="Arc-Team/android_prebuilt_linaro" path="prebuilt/linux-x86/toolchain" remote="github" revision="cm-12.0" />
