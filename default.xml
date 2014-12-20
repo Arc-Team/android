@@ -538,6 +538,9 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 
+  <!-- OmniROM -->
+  <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" revision="android-5.0" />
+
   <!-- PAC-man -->
   <project path="build" name="PAC-man/android_build" groups="pdk,tradefed" revision="pac-5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
