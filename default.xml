@@ -2,18 +2,15 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
+           fetch="https://android.googlesource.com" />
 
   <remote  name="github"
-           fetch="https://github.com"
-           review="review.cyanogenmod.org" />
+           fetch="https://github.com" />
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
-           sync-f="true"
-           sync-j="8" />
+           sync-j="4" />
 
   <!-- ARC -->
   <project path="android" name="Arc-Team/android" revision="pac-4.4" />
