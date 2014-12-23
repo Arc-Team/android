@@ -6,11 +6,11 @@
 
 To initialize on Linux:
 
-    repo init -u git://github.com/Arc-Team/android.git -b cm-11.0 -g all,-notdefault,-darwin
+    repo init -u https://github.com/Arc-Team/android.git -b cm-11.0 -g all,-notdefault,-darwin
 
 To initialize on MacOS:
 
-    repo init -u git://github.com/Arc-Team/android.git -b cm-11.0 -g all,-notdefault,-linux
+    repo init -u https://github.com/Arc-Team/android.git -b cm-11.0 -g all,-notdefault,-linux
 
 Use our local manifests:
 
