@@ -375,6 +375,7 @@
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fw" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" revision="cm-11.0" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
@@ -421,7 +422,6 @@
   <project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
-  <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
@@ -551,6 +551,7 @@
   </project>
   <project path="external/sepolicy" name="PAC-man/android_external_sepolicy" groups="pdk" revision="pac-5.0" />
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" revision="pac-5.0" />
+  <project path="frameworks/opt/net/wifi" name="PAC-man/android_frameworks_opt_net_wifi" groups="pdk" revision="pac-5.0" />
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" revision="pac-5.0" />
   <project path="packages/apps/Exchange" name="PAC-man/android_packages_apps_Exchange" revision="pac-5.0" />
   <project path="packages/apps/PerformanceControl" name="PAC-man/android_packages_apps_PerformanceControl" revision="pac-5.0" />
