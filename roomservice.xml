@@ -16,6 +16,6 @@
   <project name="Arc-Team/android_kernel_samsung_jflte" path="kernel/samsung/jfltetmo" remote="github" revision="cm-12.0-tmo" />
 
   <!-- Tools -->
-  <project name="Arc-Team/android_prebuilt_linaro" path="prebuilt/linux-x86/toolchain" remote="github" revision="cm-12.0" />
+  <project name="Arc-Team/android_prebuilt_linaro" path="prebuilts/gcc/toolchain" remote="github" revision="linaro-4.9" />
 
 </manifest>
