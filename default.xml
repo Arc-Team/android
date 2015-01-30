@@ -510,6 +510,7 @@
   <project path="packages/apps/PACConsole" name="PAC-man/android_packages_apps_PACConsole" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="PAC-man/android_packages_apps_PackageInstaller" revision="pac-4.4" />
   <project path="packages/apps/PACPapers" name="PAC-man/android_packages_apps_PACPapers" revision="pac-4.4" />
+  <project path="packages/apps/PerformanceControl" name="PAC-man/android_packages_apps_PerformanceControl" revision="pac-4.4" />
   <project path="packages/apps/ScreenRecorder" name="PAC-man/android_packages_apps_ScreenRecorder" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" revision="pac-4.4" />
   <project path="packages/providers/DownloadProvider" name="PAC-man/android_packages_providers_DownloadProvider" revision="pac-4.4" />
