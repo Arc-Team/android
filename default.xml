@@ -361,6 +361,7 @@
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" groups="pdk-cw-fs" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fw" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" revision="cm-11.0" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
