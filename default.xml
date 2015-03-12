@@ -92,7 +92,6 @@
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" />
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" remote="aosp" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
@@ -328,6 +327,7 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" />
   <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" remote="cm" />
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="cm" />
+  <project path="external/chromium_org/third_party/openssl" name="CyanogenMod/android_external_chromium_org_third_party_openssl" remote="cm" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" remote="cm" />
@@ -388,7 +388,6 @@
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="cm" />
-  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" remote="cm" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="cm" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" remote="cm" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" remote="cm" />
@@ -454,6 +453,7 @@
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" remote="cm" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8084" remote="cm" />
   <project path="hardware/qcom/audio-caf/msm8226" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8226" remote="cm" />
+  <project path="hardware/qcom/audio-caf/msm8610" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8610" remote="cm" />
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8916" remote="cm" />
   <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8960" remote="cm" />
   <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8974" remote="cm" />
@@ -462,6 +462,7 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8084" remote="cm" />
   <project path="hardware/qcom/display-caf/msm8226" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8226" remote="cm" />
+  <project path="hardware/qcom/display-caf/msm8610" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8610" remote="cm" />
   <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8916" remote="cm" />
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8960" remote="cm" />
   <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8974" remote="cm" />
@@ -469,6 +470,7 @@
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" remote="cm" />
   <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8084" remote="cm" />
   <project path="hardware/qcom/media-caf/msm8226" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8226" remote="cm" />
+  <project path="hardware/qcom/media-caf/msm8610" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8610" remote="cm" />
   <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8916" remote="cm" />
   <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8960" remote="cm" />
   <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8974" remote="cm" />
@@ -504,6 +506,7 @@
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" remote="cm" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" remote="cm" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" />
+  <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" remote="cm" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" remote="cm" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="cm" />
@@ -566,6 +569,7 @@
   <project path="build" name="PAC-man/android_build" groups="pdk,tradefed" remote="pac" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/sepolicy" name="PAC-man/android_external_sepolicy" groups="pdk" remote="pac" />
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" remote="pac" />
   <project path="frameworks/opt/net/wifi" name="PAC-man/android_frameworks_opt_net_wifi" groups="pdk" remote="pac" />
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" remote="pac" />
