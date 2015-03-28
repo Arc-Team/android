@@ -14,6 +14,18 @@
 
   <!-- ARC -->
   <project path="android" name="Arc-Team/android" revision="pac-4.4" />
+  <project path="build" name="Arc-Tools/android_build" groups="pdk" revision="pac-4.4" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="frameworks/base" name="Arc-Tools/android_frameworks_base" revision="pac-4.4" />
+  <project path="packages/apps/Dialer" name="Arc-Tools/android_packages_apps_Dialer" revision="pac-4.4" />
+  <project path="packages/apps/Email" name="Arc-Tools/android_packages_apps_Email" revision="pac-4.4" />
+  <project path="packages/apps/InCallUI" name="Arc-Tools/android_packages_apps_InCallUI" revision="pac-4.4" />
+  <project path="packages/apps/InsertCoins" name="Arc-Tools/android_packages_apps_InsertCoins" revision="pac-4.4" />
+  <project path="packages/apps/Nfc" name="Arc-Tools/android_packages_apps_Nfc" revision="pac-4.4" />
+  <project path="packages/apps/Settings" name="Arc-Tools/android_packages_apps_Settings" revision="pac-4.4" />
+  <project path="packages/providers/DownloadProvider" name="Arc-Tools/android_packages_providers_DownloadProvider" revision="pac-4.4" />
+  <project path="packages/services/Telephony" name="Arc-Tools/android_packages_services_Telephony" revision="pac-4.4" />
   <project path="vendor/pac" name="Arc-Team/android_vendor_arc" revision="pac-4.4" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
@@ -492,28 +504,16 @@
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" revision="android-4.4" />
 
   <!-- PAC -->
-  <project path="build" name="PAC-man/android_build" groups="pdk" revision="pac-4.4" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="frameworks/base" name="PAC-man/android_frameworks_base" revision="pac-4.4" />
   <project path="frameworks/opt/cards" name="PAC-man/android_frameworks_opt_cards" revision="pac-4.4" />
   <project path="frameworks/webview" name="PAC-man/android_frameworks_webview" revision="pac-4.4" />
-  <project path="packages/apps/Dialer" name="PAC-man/android_packages_apps_Dialer" revision="pac-4.4" />
-  <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" revision="pac-4.4" />
   <project path="packages/apps/Exchange" name="PAC-man/android_packages_apps_Exchange" revision="pac-4.4" />
   <project path="packages/apps/GooglePacman" name="PAC-man/android_packages_apps_GooglePacman" revision="pac-4.4" />
   <project path="packages/apps/HALO" name="PAC-man/android_packages_apps_HALO" revision="pac-4.4" />
-  <project path="packages/apps/InCallUI" name="PAC-man/android_packages_apps_InCallUI" revision="pac-4.4" />
-  <project path="packages/apps/InsertCoins" name="PAC-man/android_packages_apps_InsertCoins" revision="pac-4.4" />
-  <project path="packages/apps/Nfc" name="PAC-man/android_packages_apps_Nfc" revision="pac-4.4" />
   <project path="packages/apps/OmniSwitch" name="PAC-man/android_packages_apps_OmniSwitch" revision="pac-4.4" />
   <project path="packages/apps/PACConsole" name="PAC-man/android_packages_apps_PACConsole" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="PAC-man/android_packages_apps_PackageInstaller" revision="pac-4.4" />
   <project path="packages/apps/PACPapers" name="PAC-man/android_packages_apps_PACPapers" revision="pac-4.4" />
   <project path="packages/apps/PerformanceControl" name="PAC-man/android_packages_apps_PerformanceControl" revision="pac-4.4" />
   <project path="packages/apps/ScreenRecorder" name="PAC-man/android_packages_apps_ScreenRecorder" revision="pac-4.4" />
-  <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" revision="pac-4.4" />
-  <project path="packages/providers/DownloadProvider" name="PAC-man/android_packages_providers_DownloadProvider" revision="pac-4.4" />
-  <project path="packages/services/Telephony" name="PAC-man/android_packages_services_Telephony" revision="pac-4.4" />
 
 </manifest>
