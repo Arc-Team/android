@@ -35,6 +35,8 @@
 
   <!-- ARC -->
   <project path="android" name="Arc-Team/android" />
+  <project path="frameworks/base" name="Arc-Tools/android_frameworks_base" />
+  <project path="packages/apps/Settings" name="Arc-Tools/android_packages_apps_Settings" />
   <project path="vendor/pac" name="Arc-Team/android_vendor_arc" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
@@ -570,11 +572,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="external/sepolicy" name="PAC-man/android_external_sepolicy" groups="pdk" remote="pac" />
-  <project path="frameworks/base" name="PAC-man/android_frameworks_base" remote="pac" />
   <project path="frameworks/opt/net/wifi" name="PAC-man/android_frameworks_opt_net_wifi" groups="pdk" remote="pac" />
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" remote="pac" />
   <project path="packages/apps/Exchange" name="PAC-man/android_packages_apps_Exchange" remote="pac" />
-  <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" remote="pac" />
   <project path="packages/apps/UnifiedEmail" name="PAC-man/android_packages_apps_UnifiedEmail" remote="pac" />
 
 </manifest>
