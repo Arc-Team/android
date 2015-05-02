@@ -19,6 +19,7 @@
   </project>
   <project path="frameworks/base" name="Arc-Tools/android_frameworks_base" revision="pac-4.4" />
   <project path="packages/apps/Dialer" name="Arc-Tools/android_packages_apps_Dialer" revision="pac-4.4" />
+  <project path="packages/apps/Exchange" name="Arc-Tools/android_packages_apps_Exchange" revision="pac-4.4" />
   <project path="packages/apps/Email" name="Arc-Tools/android_packages_apps_Email" revision="pac-4.4" />
   <project path="packages/apps/InCallUI" name="Arc-Tools/android_packages_apps_InCallUI" revision="pac-4.4" />
   <project path="packages/apps/InsertCoins" name="Arc-Tools/android_packages_apps_InsertCoins" revision="pac-4.4" />
@@ -506,7 +507,6 @@
   <!-- PAC -->
   <project path="frameworks/opt/cards" name="PAC-man/android_frameworks_opt_cards" revision="pac-4.4" />
   <project path="frameworks/webview" name="PAC-man/android_frameworks_webview" revision="pac-4.4" />
-  <project path="packages/apps/Exchange" name="PAC-man/android_packages_apps_Exchange" revision="pac-4.4" />
   <project path="packages/apps/HALO" name="PAC-man/android_packages_apps_HALO" revision="pac-4.4" />
   <project path="packages/apps/OmniSwitch" name="PAC-man/android_packages_apps_OmniSwitch" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="PAC-man/android_packages_apps_PackageInstaller" revision="pac-4.4" />
