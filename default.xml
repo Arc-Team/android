@@ -14,19 +14,19 @@
 
   <!-- ARC -->
   <project path="android" name="Arc-Team/android" revision="pac-4.4" />
-  <project path="build" name="Arc-Tools/android_build" groups="pdk" revision="pac-4.4" >
+  <project path="build" name="Arc-Team/android_build" groups="pdk" revision="pac-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/base" name="Arc-Tools/android_frameworks_base" revision="pac-4.4" />
-  <project path="packages/apps/Dialer" name="Arc-Tools/android_packages_apps_Dialer" revision="pac-4.4" />
-  <project path="packages/apps/Exchange" name="Arc-Tools/android_packages_apps_Exchange" revision="pac-4.4" />
-  <project path="packages/apps/Email" name="Arc-Tools/android_packages_apps_Email" revision="pac-4.4" />
-  <project path="packages/apps/InCallUI" name="Arc-Tools/android_packages_apps_InCallUI" revision="pac-4.4" />
-  <project path="packages/apps/InsertCoins" name="Arc-Tools/android_packages_apps_InsertCoins" revision="pac-4.4" />
-  <project path="packages/apps/Nfc" name="Arc-Tools/android_packages_apps_Nfc" revision="pac-4.4" />
-  <project path="packages/apps/Settings" name="Arc-Tools/android_packages_apps_Settings" revision="pac-4.4" />
-  <project path="packages/providers/DownloadProvider" name="Arc-Tools/android_packages_providers_DownloadProvider" revision="pac-4.4" />
-  <project path="packages/services/Telephony" name="Arc-Tools/android_packages_services_Telephony" revision="pac-4.4" />
+  <project path="frameworks/base" name="Arc-Team/android_frameworks_base" revision="pac-4.4" />
+  <project path="packages/apps/Dialer" name="Arc-Team/android_packages_apps_Dialer" revision="pac-4.4" />
+  <project path="packages/apps/Exchange" name="Arc-Team/android_packages_apps_Exchange" revision="pac-4.4" />
+  <project path="packages/apps/Email" name="Arc-Team/android_packages_apps_Email" revision="pac-4.4" />
+  <project path="packages/apps/InCallUI" name="Arc-Team/android_packages_apps_InCallUI" revision="pac-4.4" />
+  <project path="packages/apps/InsertCoins" name="Arc-Team/android_packages_apps_InsertCoins" revision="pac-4.4" />
+  <project path="packages/apps/Nfc" name="Arc-Team/android_packages_apps_Nfc" revision="pac-4.4" />
+  <project path="packages/apps/Settings" name="Arc-Team/android_packages_apps_Settings" revision="pac-4.4" />
+  <project path="packages/providers/DownloadProvider" name="Arc-Team/android_packages_providers_DownloadProvider" revision="pac-4.4" />
+  <project path="packages/services/Telephony" name="Arc-Team/android_packages_services_Telephony" revision="pac-4.4" />
   <project path="vendor/pac" name="Arc-Team/android_vendor_arc" revision="pac-4.4" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
