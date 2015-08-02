@@ -43,7 +43,6 @@
   <project path="build" name="android_build" groups="pdk,tradefed" remote="arc" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/webview" name="android_frameworks_webview" remote="arc" />
   <project path="vendor/pac" name="android_vendor_arc" remote="arc" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
@@ -467,6 +466,7 @@
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cm" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" />
   <project path="frameworks/volley" name="android_frameworks_volley" remote="cm" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cm" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" remote="cm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="cm" />
