@@ -52,7 +52,6 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
   <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" />
@@ -150,7 +149,6 @@
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
-  <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" />
@@ -270,14 +268,12 @@
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="arm,darwin,pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/clang/darwin-x86/host/3.4" name="platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin" remote="aosp" />
   <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin" remote="aosp" />
-  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,pdk-cw-fs,notdefault" remote="aosp" />
   <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,pdk-cw-fs,x86" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" remote="aosp" />
-  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs,notdefault" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86" remote="aosp" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" />
@@ -306,13 +302,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
-  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" />
-  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" />
-  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp" />
-  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
-  <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
-  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
 
   <!-- CM -->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" />
@@ -326,7 +315,6 @@
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" remote="cm" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="cm" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="cm" />
-  <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" remote="cm" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" />
   <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" remote="cm" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" />
