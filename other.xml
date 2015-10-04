@@ -71,8 +71,10 @@
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" />
   <project path="external/koush/ion" name="ion" remote="cm" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="cm" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="cm" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="cm" />
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="cm" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" />
   <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="cm" />
   <project path="external/libppp" name="android_external_libppp" remote="cm" />
@@ -153,7 +155,6 @@
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="cm" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" />
   <project path="frameworks/opt/setupwizard" name="android_frameworks_opt_setupwizard" groups="pdk-cw-fs" remote="cm" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cm" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="cm" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cm" />
