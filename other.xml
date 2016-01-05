@@ -166,6 +166,9 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="cm" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" />
   <project path="hardware/cyanogen" name="android_hardware_cyanogen" remote="cm" />
+  <project path="hardware/intel/common/libmix" name="android_hardware_intel_common_libmix" groups="intel" remote="cm" />
+  <project path="hardware/intel/img/hwcomposer" name="android_hardware_intel_img_hwcomposer" groups="intel" remote="cm" />
+  <project path="hardware/intel/img/libdrm" name="android_hardware_intel_img_libdrm" groups="intel" remote="cm" />
   <project path="hardware/invensense" name="android_hardware_invensense" groups="invensense" remote="cm" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="cm" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="cm" />
@@ -182,6 +185,7 @@
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8084" remote="cm" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8916" remote="cm" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" remote="cm" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8974" remote="cm" />
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8994" remote="cm" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" remote="cm" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="cm" />
@@ -264,9 +268,9 @@
   <project path="packages/wallpapers/NoiseField" name="android_packages_wallpapers_NoiseField" remote="cm" />
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" />
   <project path="packages/wallpapers/PhotoPhase" name="android_packages_wallpapers_PhotoPhase" remote="cm" />
-  <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" remote="cm" revision="master" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" remote="cm" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="cm" />
+  <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" clone-depth="1" remote="cm" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="cm" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="cm" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cm" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
   <project path="system/extras/su" name="android_system_extras_su" remote="cm" />
