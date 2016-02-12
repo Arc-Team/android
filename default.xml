@@ -111,6 +111,7 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" remote="aosp" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" />
@@ -481,8 +482,6 @@
   <project path="packages/wallpapers/NoiseField" name="android_packages_wallpapers_NoiseField" remote="cm" />
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" />
   <project path="packages/wallpapers/PhotoPhase" name="android_packages_wallpapers_PhotoPhase" remote="cm" />
-  <project path="prebuilt" name="android_prebuilt" remote="cm" />
-  <project path="prebuilts/misc" name="android_prebuilts_misc" groups="pdk" remote="cm" />
   <project path="sdk" name="android_sdk" remote="cm" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cm" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
