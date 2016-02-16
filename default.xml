@@ -40,6 +40,7 @@
 
 <!-- BEGIN ARC -->
   <project path="android" name="android" remote="arc" />
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="arc" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="arc" />
   <project path="vendor/pac" name="android_vendor_arc" remote="arc" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh"/>
