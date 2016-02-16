@@ -4,6 +4,10 @@
   <remote  name="arc"
            fetch="https://github.com/Arc-Team" />
 
+  <remote  name="arcos"
+           fetch="https://github.com/Arc-OS"
+           revision="refs/heads/cm-13.0" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
@@ -40,7 +44,7 @@
 
 <!-- BEGIN ARC -->
   <project path="android" name="android" remote="arc" />
-  <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="arc" />
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="arcos" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="arc" />
   <project path="vendor/pac" name="android_vendor_arc" remote="arc" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh"/>
