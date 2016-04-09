@@ -418,6 +418,7 @@
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cm" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
+  <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="cm" />
   <project path="packages/apps/CMBugReport" name="android_packages_apps_CMBugreport" remote="cm" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
   <project path="packages/apps/CMHome" name="android_packages_apps_CMHome" remote="cm" />
