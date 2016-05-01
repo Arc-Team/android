@@ -6,6 +6,9 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.1_r30" />
 
+  <remote  name="arc"
+           fetch="https://github.com/Arc-Team"/>
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org"
@@ -19,15 +22,19 @@
            sync-c="true"
            sync-j="4" />
 
+<!-- BEGIN ARC -->
+  <project path="android" name="android" remote="arc" />
+  <project path="build" name="android_build" groups="pdk" remote="arc" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="vendor/cm" name="android_vendor_arc" remote="arc" />
+<!-- END ARC -->
+
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" />
-  <project path="android" name="android" remote="cm" />
   <project path="art" name="android_art" groups="pdk" remote="cm" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="cm" />
-  <project path="build" name="android_build" groups="pdk" remote="cm" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="device/common" name="android_device_common" groups="pdk-cw-fs,pdk-fs" remote="cm" />
@@ -282,7 +289,6 @@
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
-  <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" />
 <!-- END CYANOGENMOD -->
 
