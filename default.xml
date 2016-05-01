@@ -24,6 +24,7 @@
 
 <!-- BEGIN ARC -->
   <project path="android" name="android" remote="arc" />
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="arc" />
   <project path="build" name="android_build" groups="pdk" remote="arc" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
