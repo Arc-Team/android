@@ -47,6 +47,7 @@
 
 <!-- BEGIN ARC -->
   <project path="android" name="android" remote="arc" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk-cw-fs" remote="arc" revision="android-7.1" />
   <project path="vendor/pac" name="android_vendor_arc" remote="arc" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
@@ -541,7 +542,6 @@
 <!-- END HALS -->
 
 <!-- BEGIN PAC-ROM -->
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk-cw-fs" remote="pac" />
   <project path="build" name="android_build" groups="pdk" remote="pac" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
