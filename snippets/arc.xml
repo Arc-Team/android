@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- ARC additions -->
+  <project path="android" name="Arc-Team/android" />
+  <project path="external/chromium-webview" name="Arc-Team/android_external_chromium-webview" groups="pdk" clone-depth="1" />
+
+</manifest>
