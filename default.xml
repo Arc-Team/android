@@ -219,7 +219,7 @@
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" remote="aosp" />
   <project path="external/libweave" name="platform/external/libweave" groups="pdk" remote="aosp" />
-  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" remote="aosp" />
+  <!-- <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" remote="aosp" /> -->
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" remote="aosp" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk" remote="aosp" />
   <project path="external/lld" name="platform/external/lld" groups="pdk" remote="aosp" />
@@ -316,7 +316,7 @@
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" remote="aosp" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" remote="aosp" />
-  <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
+  <!-- <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" /> -->
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
