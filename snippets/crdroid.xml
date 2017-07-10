@@ -9,16 +9,22 @@
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
   <project path="external/bash" name="crdroidandroid/android_external_bash" remote="crdroid" />
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
+  <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
   <project path="external/ImageMagick" name="crdroidandroid/android_external_ImageMagick" remote="crdroid" />
   <project path="external/jemalloc" name="crdroidandroid/android_external_jemalloc" remote="crdroid" />
+  <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
+  <project path="external/libphonenumber" name="crdroidandroid/android_external_libphonenumber" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
+  <project path="external/libunwind_llvm" name="crdroidandroid/android_external_libunwind_llvm" remote="crdroid" />
   <project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />
+  <project path="external/mdnsresponder" name="crdroidandroid/android_external_mdnsresponder" remote="crdroid" />
   <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/v8" name="crdroidandroid/android_external_v8" remote="crdroid" />
   <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="crdroid" />
+  <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
@@ -50,6 +56,7 @@
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="neobuddy89/arm-eabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.3" name="neobuddy89/arm-eabi-6.x" remote="bb" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.1" name="nathanchance/gcc-prebuilts" remote="github" revision="arm-linaro-7.x" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" name="crdroidandroid/arm-linux-androideabi-6.3" remote="github" revision="linaro" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/extras" name="crdroidandroid/android_system_extras" remote="crdroid" />
