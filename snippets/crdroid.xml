@@ -2,9 +2,6 @@
 <manifest>
 
   <!-- crDroid additions -->
-  <project path="build" name="crdroidandroid/android_build" remote="crdroid" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
   <project path="external/bash" name="crdroidandroid/android_external_bash" remote="crdroid" />
@@ -23,7 +20,6 @@
   <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
   <project path="external/v8" name="crdroidandroid/android_external_v8" remote="crdroid" />
   <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="crdroid" />
-  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
@@ -44,7 +40,6 @@
   <project path="packages/apps/OmniSwitch" name="crdroidandroid/android_packages_apps_OmniSwitch" remote="crdroid" />
   <project path="packages/apps/PackageInstaller" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="crdroid" />
   <project path="packages/apps/PhoneCommon" name="crdroidandroid/android_packages_apps_PhoneCommon" remote="crdroid" />
-  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
   <project path="packages/apps/SlimRecents" name="crdroidandroid/android_packages_apps_SlimRecents" remote="crdroid" />
   <project path="packages/apps/ThemeInterfacer" name="crdroidandroid/android_packages_apps_ThemeInterfacer" remote="crdroid" />
   <project path="packages/apps/Trebuchet" name="crdroidandroid/android_packages_apps_Trebuchet" remote="crdroid" />
@@ -62,8 +57,6 @@
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
-  <project path="vendor/cm" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
-  <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="crdroid" />
   <project path="vendor/crDroidOTA-devices" name="crdroid-devices/android_vendor_crDroidOTA" remote="crdroid" />
 
 </manifest>
