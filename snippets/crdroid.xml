@@ -23,7 +23,6 @@
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
-  <project path="packages/apps/CMParts" name="crdroidandroid/android_packages_apps_CMParts" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
   <project path="packages/apps/ContactsCommon" name="crdroidandroid/android_packages_apps_ContactsCommon" remote="crdroid" />
   <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
@@ -55,7 +54,6 @@
   <project path="system/extras" name="crdroidandroid/android_system_extras" remote="crdroid" />
   <project path="system/media" name="crdroidandroid/android_system_media" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
-  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA-devices" name="crdroid-devices/android_vendor_crDroidOTA" remote="crdroid" />
 
