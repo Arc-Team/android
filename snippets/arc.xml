@@ -8,6 +8,7 @@
   </project>
   <project path="frameworks/base" name="Arc-Team/android_frameworks_base" remote="github" revision="7.1" />
   <project path="packages/apps/CMParts" name="Arc-Team/android_packages_apps_CMParts" remote="github" revision="7.1" />
+  <project path="packages/apps/PackageInstaller" name="Arc-Team/android_packages_apps_PackageInstaller" remote="github" revision="7.1" />
   <project path="packages/apps/Settings" name="Arc-Team/android_packages_apps_Settings" remote="github" revision="7.1" />
   <project path="system/sepolicy" name="Arc-Team/android_system_sepolicy" remote="github" revision="7.1" />
   <project path="vendor/cm" name="Arc-Team/android_vendor_arc" remote="github" revision="7.1" />
