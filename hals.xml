@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="octos-devices" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="octos" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="octos" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="octos" />
+  <project path="external/brctl" name="android_external_brctl" remote="octos" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="octos" />
+  <project path="external/ebtables" name="android_external_ebtables" remote="octos" />
+  <project path="external/json-c" name="android_external_json-c" remote="octos" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="octos" />
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="octos" />
+  <project path="external/powertop" name="android_external_powertop" remote="octos" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="octos" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="octos" revision="oreo-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="octos" revision="oreo-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="octos" revision="oreo-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="octos" revision="oreo-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="octos" revision="oreo-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="octos" revision="oreo-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="octos" revision="oreo-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="octos" revision="oreo-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="octos" revision="oreo-caf-8998" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="octos" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="octos" revision="oreo-caf" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="octos" />
+  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="octos" revision="oreo-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="octos" revision="oreo-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="octos" revision="oreo-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="octos" revision="oreo-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="octos" revision="oreo-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="octos" revision="oreo-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="octos" revision="oreo-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="octos" revision="oreo-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="octos" revision="oreo-caf-8998" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="octos" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="octos" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="octos" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,qcom_media" remote="octos" />
+  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom,pdk" remote="octos" revision="oreo-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk" remote="octos" revision="oreo-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" groups="qcom,pdk" remote="octos" revision="oreo-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk" remote="octos" revision="oreo-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,pdk" remote="octos" revision="oreo-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,pdk" remote="octos" revision="oreo-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" remote="octos" revision="oreo-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" remote="octos" revision="oreo-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="octos" revision="oreo-caf-8998" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="octos" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="octos" revision="oreo-caf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="octos" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="octos" revision="oreo-caf" />
+  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="octos" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="octos" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="octos" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="octos" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="octos" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+
+</manifest>
