@@ -11,6 +11,7 @@
   <project path="packages/apps/PackageInstaller" name="Arc-Team/android_packages_apps_PackageInstaller" remote="github" revision="7.1" />
   <project path="packages/apps/Settings" name="Arc-Team/android_packages_apps_Settings" remote="github" revision="7.1" />
   <project path="system/sepolicy" name="Arc-Team/android_system_sepolicy" remote="github" revision="7.1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="nathanchance/gcc-prebuilts" remote="github" revision="aarch64-linaro-7.x" clone-depth="1" />
   <project path="vendor/cm" name="Arc-Team/android_vendor_arc" remote="github" revision="7.1" />
   <project path="vendor/cmsdk" name="Arc-Team/cm_platform_sdk" remote="github" revision="7.1" />
 
