@@ -4,6 +4,9 @@
   <!-- crDroid additions -->
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
+  <project path="build" name="crdroidandroid/android_build" remote="crdroid" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="external/bash" name="crdroidandroid/android_external_bash" remote="crdroid" />
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
@@ -22,7 +25,6 @@
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
-  <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
   <project path="packages/apps/ContactsCommon" name="crdroidandroid/android_packages_apps_ContactsCommon" remote="crdroid" />
   <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
@@ -36,6 +38,7 @@
   <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" remote="crdroid" />
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/OmniSwitch" name="crdroidandroid/android_packages_apps_OmniSwitch" remote="crdroid" />
+  <project path="packages/apps/PackageInstaller" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="crdroid" />
   <project path="packages/apps/PhoneCommon" name="crdroidandroid/android_packages_apps_PhoneCommon" remote="crdroid" />
   <project path="packages/apps/SlimRecents" name="crdroidandroid/android_packages_apps_SlimRecents" remote="crdroid" />
   <project path="packages/apps/ThemeInterfacer" name="crdroidandroid/android_packages_apps_ThemeInterfacer" remote="crdroid" />
@@ -52,7 +55,9 @@
   <project path="system/extras" name="crdroidandroid/android_system_extras" remote="crdroid" />
   <project path="system/media" name="crdroidandroid/android_system_media" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
+  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
+  <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="crdroid" />
   <project path="vendor/crDroidOTA-devices" name="crdroid-devices/android_vendor_crDroidOTA" remote="crdroid" />
 
 </manifest>
