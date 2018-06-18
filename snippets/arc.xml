@@ -7,6 +7,8 @@
   <project path="packages/apps/CMParts" name="Arc-Team/android_packages_apps_CMParts" remote="github" revision="7.1" />
   <project path="packages/apps/Contacts" name="Arc-Team/android_packages_apps_Contacts" remote="github" revision="7.1" />
   <project path="packages/apps/Settings" name="Arc-Team/android_packages_apps_Settings" remote="github" revision="7.1" />
+  <project path="packages/services/Telecomm" name="Arc-Team/android_packages_services_Telecomm" remote="github" revision="7.1" />
+  <project path="packages/services/Telephony" name="Arc-Team/android_packages_services_Telephony" remote="github" revision="7.1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="nathanchance/gcc-prebuilts" remote="github" revision="aarch64-linaro-7.x" clone-depth="1" />
   <project path="vendor/cm" name="Arc-Team/android_vendor_arc" remote="github" revision="7.1" />
 
