@@ -6,7 +6,7 @@
 
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
 
-  <project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
+  <!--<project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -14,7 +14,7 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
+  </project>-->
   <project path="build/soong" name="crdroidandroid/android_build_soong" remote="crdroid" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -23,7 +23,7 @@
   <project path="crdroid/build" name="crdroidandroid/crdroid_build" remote="crdroid" />
   <project path="crdroid/features" name="crdroidandroid/crdroid_features" remote="crdroid" />
 
-  <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
+  <!--<project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />-->
 
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
@@ -33,18 +33,18 @@
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
   <project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />
-  <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
+  <!--<project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />-->
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
-  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
+  <!--<project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />-->
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
 
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
   <project path="libnativehelper" name="crdroidandroid/android_libnativehelper" remote="crdroid" />
 
-  <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
+  <!--<project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />-->
 
   <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
   <project path="packages/apps/crDroidFonts" name="crdroidandroid/android_packages_apps_crDroidFonts" remote="crdroid" />
@@ -53,10 +53,10 @@
   <project path="packages/apps/crDroidWallpapers" name="crdroidandroid/android_packages_apps_crDroidWallpapers" remote="crdroid" />
   <project path="packages/apps/DocumentsUI" name="crdroidandroid/android_packages_apps_DocumentsUI" remote="crdroid" />
   <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="crdroid" />
-  <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
+  <!--<project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />-->
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
-  <project path="packages/apps/PackageInstaller" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="crdroid" />
-  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
+  <!--<project path="packages/apps/PackageInstaller" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="crdroid" />-->
+  <!--<project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />-->
   <project path="packages/apps/SlimRecents" name="crdroidandroid/android_packages_apps_SlimRecents" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
   <project path="packages/overlays/accents" name="crdroidandroid/android_packages_overlays_accents" remote="crdroid" />
@@ -79,6 +79,6 @@
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
-  <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  <!--<project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />-->
 
 </manifest>
