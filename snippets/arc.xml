@@ -14,11 +14,15 @@
   </project>
   <project path="device/lineage/sepolicy" name="Arc-Team/android_device_lineage_sepolicy" remote="github" revision="8.1" />
   <project path="external/skia" name="Arc-Team/android_external_skia" remote="github" revision="8.1" />
+  <project path="frameworks/av" name="Arc-Team/android_frameworks_av" remote="github" revision="8.1" />
   <project path="frameworks/base" name="Arc-Team/android_frameworks_base" remote="github" revision="8.1" />
+  <project path="frameworks/native" name="Arc-Team/android_frameworks_native" remote="github" revision="8.1" />
+  <project path="frameworks/opt/telephony" name="Arc-Team/android_frameworks_opt_telephony" remote="github" revision="8.1" />
   <project path="lineage-sdk" name="Arc-Team/android_lineage-sdk" remote="github" revision="8.1" />
   <project path="packages/apps/LineageParts" name="Arc-Team/android_packages_apps_LineageParts" remote="github" revision="8.1" />
   <project path="packages/apps/PackageInstaller" name="Arc-Team/android_packages_apps_PackageInstaller" remote="github" revision="8.1" />
   <project path="packages/apps/Settings" name="Arc-Team/android_packages_apps_Settings" remote="github" revision="8.1" />
+  <project path="system/core" name="Arc-Team/android_system_core" remote="github" revision="8.1" />
   <project path="vendor/lineage" name="Arc-Team/android_vendor_arc" remote="github" revision="8.1" />
 
 </manifest>

@@ -35,10 +35,10 @@
   <project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />
   <!--<project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />-->
 
-  <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
+  <!--<project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />-->
   <!--<project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />-->
-  <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
-  <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
+  <!--<project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />-->
+  <!--<project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />-->
 
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
   <project path="libnativehelper" name="crdroidandroid/android_libnativehelper" remote="crdroid" />
@@ -73,7 +73,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="crdroidandroid/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9" remote="crdroid" clone-depth="1" />
   <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_4.0" name="crdroidandroid/android_prebuilts_snapdragon-llvm_toolchains_llvm-Snapdragon-LLVM-for-Android-4.0" remote="crdroid" clone-depth="1" />
 
-  <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
+  <!--<project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />-->
   <project path="system/extras/su" name="crdroidandroid/android_system_extras_su" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
 
