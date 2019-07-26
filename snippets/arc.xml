@@ -3,6 +3,7 @@
 
   <!-- ARC additions -->
   <project path="android" name="Arc-Team/android" remote="github" revision="crd-8.1" />
+  <project path="bionic" name="Arc-Team/android_bionic" remote="github" revision="8.1" />
   <project path="build/make" name="Arc-Team/android_build" remote="github" revision="8.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -22,6 +23,7 @@
   <project path="packages/apps/LineageParts" name="Arc-Team/android_packages_apps_LineageParts" remote="github" revision="8.1" />
   <project path="packages/apps/PackageInstaller" name="Arc-Team/android_packages_apps_PackageInstaller" remote="github" revision="8.1" />
   <project path="packages/apps/Settings" name="Arc-Team/android_packages_apps_Settings" remote="github" revision="8.1" />
+  <project path="packages/services/Telephony" name="Arc-Team/android_packages_services_Telephony" remote="github" revision="8.1" />
   <project path="system/core" name="Arc-Team/android_system_core" remote="github" revision="8.1" />
   <project path="vendor/lineage" name="Arc-Team/android_vendor_arc" remote="github" revision="8.1" />
 

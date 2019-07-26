@@ -4,7 +4,7 @@
   <!-- crDroid additions -->
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
 
-  <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
+  <!--<project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />-->
 
   <!--<project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -66,7 +66,7 @@
   <project path="packages/providers/MediaProvider" name="crdroidandroid/android_packages_providers_MediaProvider" remote="crdroid" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="crdroid" />
-  <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
+  <!--<project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />-->
 
   <project path="prebuilts/clang/host/linux-x86/clang-4751641" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-4751641"  remote="crdroid" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-5166481" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5166481"  remote="crdroid" clone-depth="1" />
