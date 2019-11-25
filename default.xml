@@ -652,6 +652,7 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
+  <include name="snippets/arc.xml" />
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- ARC additions -->
+  <project path="android" name="Arc-Team/android" remote="github" revision="crd-9.0" />
+
+  <project path="frameworks/base" name="Arc-Team/android_frameworks_base" remote="github" revision="9.0" />
+
+  <project path="packages/apps/Settings" name="Arc-Team/android_packages_apps_Settings" remote="github" revision="9.0" />
+
+  <project path="vendor/lineage" name="Arc-Team/android_vendor_arc" remote="github" revision="9.0" />
+
+</manifest>
