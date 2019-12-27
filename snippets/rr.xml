@@ -13,34 +13,34 @@
   <project path="build/soong" name="android_build_soong" remote="rr" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-</project>
-<project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="rr" />
-<project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator_Pie" groups="pdk-fs" remote="rr" />
-<project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="rr" />
-<project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet_Pie" remote="rr" />
-<project path="packages/overlays/Lineage" name="android_packages_overlays_ResurrectionRemix" remote="rr" />
-<project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="rr" />
-<project path="prebuilts/clang/host/darwin-x86" name="clang-host-darwin-x86" remote="rr" clone-depth="1"/>
-<project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="pie" clone-depth="1" />
-<project path="lineage-sdk" name="android_lineage-sdk" remote="rr" />
-<project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="rr" />
-<project path="device/rr/sepolicy" name="device_rr_sepolicy" remote="rr" />
-<project path="frameworks/av" name="frameworks_av" remote="rr" />
-<project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="rr" />
-<project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
-<project path="system/core" name="android_system_core" remote="rr" />
-<project path="frameworks/support" name="frameworks_support" remote="rr" />
-<project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="rr" />
-<project path="system/sepolicy" name="android_system_sepolicy" remote="rr" />
-<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
-<project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="rr" />
-<project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="rr" />
-<project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="rr" />
-<project path="frameworks/native" name="frameworks_native" remote="rr" />
-<project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
-<project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="rr" />
-<project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rr" />
-<project path="frameworks/support/lottie" name="android_frameworks_support_lottie" remote="rr" />
-<project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="rr" />
+  </project>
 
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="rr" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="rr" />
+  <project path="device/rr/sepolicy" name="device_rr_sepolicy" remote="rr" />
+  <project path="frameworks/av" name="frameworks_av" remote="rr" />
+  <project path="frameworks/native" name="frameworks_native" remote="rr" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rr" />
+  <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="rr" />
+  <project path="frameworks/support" name="frameworks_support" remote="rr" />
+  <project path="frameworks/support/lottie" name="android_frameworks_support_lottie" remote="rr" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="rr" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="rr" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="rr" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator_Pie" groups="pdk-fs" remote="rr" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="rr" />
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="rr" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="rr" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
+  <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="rr" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet_Pie" remote="rr" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="rr" />
+  <project path="packages/overlays/Lineage" name="android_packages_overlays_ResurrectionRemix" remote="rr" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="rr" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
+  <project path="prebuilts/clang/host/darwin-x86" name="clang-host-darwin-x86" remote="rr" clone-depth="1"/>
+  <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="pie" clone-depth="1" />
+  <project path="system/core" name="android_system_core" remote="rr" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="rr" />
 </manifest>
