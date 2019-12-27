@@ -97,9 +97,11 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
       $ mkdir ~/RR
       $ cd ~/RR
 
-##### Initializing the RR repo and downloading the manifest
+##### Initializing the RR repo and downloading the manifest for linux
+      $ repo init -u https://github.com/Arc-Team/android.git -b pie -g all,-notdefault,-darwin
 
-      $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b pie
+##### Initializing the RR repo and downloading the manifest for macos
+      $ repo init -u https://github.com/Arc-Team/android.git -b pie -g all,-notdefault,-linux
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is ~26GB]
