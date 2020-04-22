@@ -703,6 +703,7 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
+  <include name="snippets/arc.xml" />
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
 
