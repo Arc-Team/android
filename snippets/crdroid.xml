@@ -25,9 +25,10 @@
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
 
+  <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" remote="crdroid" />
+  <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
-  <project path="external/motorola/faceunlock" name="crdroidandroid/android_external_motorola_faceunlock" remote="crdroid" />
   <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
 
@@ -62,15 +63,18 @@
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/PhoneCommon" name="crdroidandroid/android_packages_apps_PhoneCommon" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
+  <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
 
+  <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" remote="crdroid" />
+
   <!-- Clang 9 version 9.0.8 -->
   <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5900059" remote="crdroid" clone-depth="1" />
-  <!-- Clang 10 version 10.0.5 -->
-  <project path="prebuilts/clang/host/linux-x86/clang-6305083" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6305083" remote="crdroid" clone-depth="1" />
   <!-- Clang 10 version 10.0.6 -->
   <project path="prebuilts/clang/host/linux-x86/clang-6364210" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6364210" remote="crdroid" clone-depth="1" />
+  <!-- Clang 11 version 11.0.1 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-6443078" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6443078" remote="crdroid" clone-depth="1" />
 
   <project path="system/bt" name="crdroidandroid/android_system_bt" remote="crdroid" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
