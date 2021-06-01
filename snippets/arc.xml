@@ -4,6 +4,9 @@
   <!-- ARC additions -->
   <project path="android" name="Arc-Team/android" remote="github" revision="crd-10.0" />
 
+  <project path="device/lineage/sepolicy" name="Arc-Team/android_device_lineage_sepolicy" remote="github" revision="10.0" />
+  <project path="device/qcom/sepolicy" name="Arc-Team/android_device_qcom_sepolicy" remote="github" revision="10.0" />
+
   <project path="frameworks/base" name="Arc-Team/android_frameworks_base" remote="github" revision="10.0" />
 
   <project path="packages/apps/Settings" name="Arc-Team/android_packages_apps_Settings" remote="github" revision="10.0" />
