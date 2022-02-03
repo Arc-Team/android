@@ -8,6 +8,8 @@
 
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
 
+  <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" remote="crdroid" />
+
   <!-- <project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -27,14 +29,15 @@
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" remote="crdroid" />
   <project path="external/asus/stitchimage" name="crdroidandroid/android_external_asus_stitchimage" remote="crdroid" />
-  <project path="external/compiler-rt" name="crdroidandroid/android_external_compiler-rt" remote="crdroid" />
   <project path="external/cpu_features" name="crdroidandroid/android_external_cpu_features" remote="crdroid" />
+  <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
   <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/giflib" name="crdroidandroid/android_external_giflib" remote="crdroid" />
   <project path="external/harfbuzz_ng" name="crdroidandroid/android_external_harfbuzz_ng" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" remote="crdroid" />
   <project path="external/libcxx" name="crdroidandroid/android_external_libcxx" remote="crdroid" />
+  <project path="external/libhevc" name="crdroidandroid/android_external_libhevc" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
   <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="crdroid" />
@@ -67,13 +70,15 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="11.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" revision="11.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" revision="11.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="11.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/display" name="crdroidandroid/android_hardware_qcom_display" revision="11.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/media" name="crdroidandroid/android_hardware_qcom_media" revision="11.0-caf-sm8350" />
   <project path="hardware/ril" name="crdroidandroid/android_hardware_ril" remote="crdroid" />
 
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
-  <project path="packages/apps/Bluetooth" name="crdroidandroid/android_packages_apps_Bluetooth" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
@@ -97,25 +102,33 @@
   <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" remote="crdroid" />
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" clone-depth="1" remote="crdroid" />
 
-  <!-- Clang 12 version 12.0.5 -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r416183b" remote="crdroid" clone-depth="1" />
+  <!-- Clang 14 version 14.0.1 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="crdroid-gitlab" />
+
+  <project path="prebuilts/r8" name="crdroidandroid/android_prebuilts_r8" remote="crdroid" clone-depth="1" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/hardware/interfaces" name="crdroidandroid/android_system_hardware_interfaces" remote="crdroid" />
+  <project path="system/hwservicemanager" name="crdroidandroid/android_system_hwservicemanager" remote="crdroid" />
   <project path="system/iorap" name="crdroidandroid/android_system_iorap" remote="crdroid" />
   <project path="system/libhwbinder" name="crdroidandroid/android_system_libhwbinder" remote="crdroid" />
   <project path="system/linkerconfig" name="crdroidandroid/android_system_linkerconfig" remote="crdroid" />
   <project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
+  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
+  <project path="system/vold" name="crdroidandroid/android_system_vold" remote="crdroid" />
 
+  <project path="tools/extract-utils" name="crdroidandroid/android_tools_extract-utils" remote="crdroid" />
   <project path="tools/metalava" name="crdroidandroid/android_tools_metalava" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/codeaurora/telephony" name="crdroidandroid/android_vendor_codeaurora_telephony" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <!-- <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" /> -->
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth_ext" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="crdroidandroid/android_vendor_qcom_opensource_system_bt" remote="crdroid" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="crdroidandroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="crdroid" />
