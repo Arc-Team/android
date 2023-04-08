@@ -36,10 +36,10 @@ $ mkdir crDroid
 $ cd crDroid
 
 # Install Repo in the created directory for linux
-$ repo init -u https://github.com/Arc-Team/android.git -b crd-11.0 -g all,-notdefault,-darwin
+$ repo init -u https://github.com/Arc-Team/android.git -b crd-11.0 -g all,-notdefault,-darwin --git-lfs
 
 # Install Repo in the created directory for macos
-$ repo init -u https://github.com/Arc-Team/android.git -b crd-11.0 -g all,-notdefault,-linux
+$ repo init -u https://github.com/Arc-Team/android.git -b crd-11.0 -g all,-notdefault,-linux --git-lfs
 ```
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
